@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(246, 244, 255);
+    margin: 0 auto;
+    
+}
+
+#title{
+
+    background-color:white ;
+    padding:10px 0;
+    font-size:10px;
+    color:rgb(40, 16, 78);
+    
+    }
+#title img{
+        float:left;
+        margin:5px 5px 5px 100px;
+        padding-bottom:5px;
+        text-align: center;
+    
+    }
+#title h2{
+    float:right;
+    font-size:22px;
+    color:rgb(116, 33, 252);
+    margin-top:-45px;
+    margin-right:50px;
+    }
+    
+section{
+    margin-left:100px;
+}
+header{
+    text-align: center;
+}
+
+#click{
+    background-color:#b68ff566;
+    color:white;
+    border-color:rgb(219 219 219);
+ }
+
+    #container{
+    margin:50px auto;
+    padding:80px;
+    width:50%;
+    background-color:white;
+    border-style:solid;
+
+    border-color:rgba(8, 8, 8, 0.201);
+    border-width:1px;
+   
+    position:relative;
+    border-radius: 20px;
+   
+  }
+  #lawbot{
+    position:fixed;
+    top:300px;
+    text-align: center;
+    
+  }
+
+  #lawbot h1{
+    font-size:30px;
+
+  }
+  #lawbot h2{
+    font-size:15px;
+
+  }
+   
+  
+
+    li{
+        list-style:none;
+        padding:5px;
+       
+        
+    }
+    input{
+        font-size:15px;
+        padding:10px;
+        
+    }
+    #uid{
+        width:60%;
+    }
+
+    h3{
+        background-color: rgb(246, 244, 255);
+        font-size:25px;
+        padding:20px;
+        margin-top:-20px;
+        border-radius: 8px;
+       
+    }
+
+    h2{
+        font-size:20px;
+        padding-left:5px;
+        margin-bottom: 10px;
+    }
+#break{margin-bottom:40px;}
+nav ul{
+        list-style: none;
+        margin: 50px auto;
+        text-align:center;
+        
+        
+        
+        
+        
+        
+    }
+nav ul li{
+    display: inline-block;}
+
+a { 
+    color: rgb(59, 24, 115);
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 15px; 
+    font-size:20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 8px;
+}
+            
+
+a:hover {
+            background-color:#b68ff5;
+            color:white;
+            border-color:rgb(219 219 219);
+          }
+#buttons{
+            text-align: center;
+        }
+    
+#buttons button{
+            
+    color: rgb(59, 24, 115);
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 15px; 
+    font-size:20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 8px;
+    border-color:rgb(219 219 219);
+            
+        }
+    
+#buttons button:hover{
+            background-color:#b68ff5;
+            color:white;
+            border-color:rgb(219 219 219);
+        }
+   
+   

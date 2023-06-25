@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="./images/favicon.ico"/>
+    <title>Document</title><link rel="stylesheet" href="./document.css">
+</head>
+<body>
+    <div id="title">
+      <img src = "./lawbot.png" width = "70px" height = " 40px " >
+      <h1>
+        LawBot
+      </h1>
+      <h2>
+        Home
+      </h2>
+    </div>
+    <section>
+      <header>
+        <nav>
+        <ul>
+          <li><a href="./근로계약서.html">근로계약서</a></li>
+          <li><a id="click" href="./내용증명.html">내용증명서</a></li>
+          <li><a  href="./지급명령서.html">지급명령서</a></li>
+          <li><a href="./고소장.html">고소장</a></li>
+      </ul>
+      </nav>
+      </header>
+    <div id="container">
+    <form action="/test" method="post">
+      <h3>받을 금액</h3>
+            <h2>돈을 빌려줄 때 이자까지 받기로 했나요?</h2>
+              <ul>
+              <li>
+                <label><input type="radio" name="11" value="네"> 네</label>
+                <label><input type="radio" name="11" value="아니요"> 아니요</label>
+              </li>
+            </ul>
+            <h2>상거래를 위해 돈을 빌려주었나요? </h2>
+            <ul>
+              <li>
+                <label><input type="radio" name="22" value="네"> 네</label>
+                <label><input type="radio" name="22" value="아니요"> 아니요</label>
+              </li>
+            </ul>
+              <h2>갚기로 약속한 날</h2>
+              <li><input type = "date" id="break" name="date"></li>
+          <h3>법적 조치 </h3>
+                  <h2>민사만 경고하나요? 형사도 경고하나요? </h2>
+                  <li>
+                  <input type="radio" name="mailing" id="mailin_y">
+                  <label for="mailing_y">가압류 소송 등 민사만</label>
+                  </li>
+                  <li>
+                  <input type="radio" name="mailing" id="mailing_n" value="mailing_no" >
+                  <label for="mailing_n">민사와 사기죄 고소 등 형사까지</label>
+                  </li>
+          </div>
+        <div id="buttons">
+          <button id="b">문서 작성하기</button>
+      </div>
+    </section>
+    </form>
+    <script src="action.js"></script>
+    <div id="lawbot">
+      <h1>
+        자동완성
+      </h1>
+      <h2>
+        간단한 입력으로 법률문서  작성하기
+      </h2>
+      <img src = "./lawbot.png" width ="450px" height="250px">
+      </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="./images/favicon.ico"/>
+    <title>Document</title><link rel="stylesheet" href="./document.css">
+</head>
+<body>
+  
+    <div id="title">
+      <img src = "./lawbot.png" width = "70px" height = " 40px " >
+      <h1>
+        LawBot
+      </h1>
+      <h2>
+        Home
+      </h2>
+    </div>
+    <section>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="./근로계약서.html">근로계약서</a></li>
+          <li><a href="./내용증명.html">내용증명서</a></li>
+          <li><a id="click"  href="./지급명령서.html">지급명령서</a></li>
+          <li><a href="./고소장.html">고소장</a></li>
+        </ul>
+        </nav>
+      </header>
+    <div id="container">
+    <form action="/test" method="post">
+      <h3>돌려받고자 하는 보증금</h3>
+            <h2>보증금</h2>
+              <ul>
+              <li>
+                <input type="text" name ="deposit" placeholder="10,000,000" required/>
+              </li>
+            </ul>
+            <h2>지연이자도 받나요?</h2>
+            <ul>
+              <li>
+                <label><input type="radio" name="choice1" id="yes" value="yes" required/> 네</label>
+                <label><input type="radio" name="choice1" id="no" value="no" required/> 아니요(보증금만 청구)</label>
+              </li>
+            </ul>
+              <h2>임대차 계약 종료 일자</h2>
+              <li><input id="break" type="date" name ="date" required/></li>
+          <h3>접수방식</h3>
+                  <h2>접수 방식이 어떻게 되나요?</h2>
+                  <li>
+                    <input type="radio" name="choice2" id="electronic" value="electronic" required>
+                    <label for="electronic">전자소송</label>
+                    <input type="radio" name="choice2" id="direct" value="direct" required>
+                    <label for="direct">직접제출</label>
+                  </li>
+          </div>
+        <div id="buttons">
+          <button id="b">문서 작성하기</button>
+      </div>
+    </section>
+    </form>
+    <script src="action.js"></script>
+    <div id="lawbot">
+      <h1>
+        자동완성
+      </h1>
+      <h2>
+        간단한 입력으로 법률문서  작성하기
+      </h2>
+      <img src = "./lawbot.png" width ="450px" height="250px">
+      </div>
+</body>
+</html>

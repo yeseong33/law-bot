@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="./images/favicon.ico"/>
+    <title>Document</title><link rel="stylesheet" href="./document.css">
+</head>
+   <div id="title">
+    <img src = "./lawbot.png" width = "70px" height = " 40px " >
+    <h1>
+      LawBot
+    </h1>
+    <h2>
+      Home
+    </h2>
+   </div>
+   <body>
+  <section>     
+    <header>
+    <nav>
+      <ul>
+        <li><a id="click" href="./근로계약서.html">근로계약서</a></li>
+        <li><a  href="./내용증명.html">내용증명서</a></li>
+        <li><a  href="./지급명령서.html">지급명령서</a></li>
+        <li><a href="./고소장.html">고소장</a></li>
+      </ul>
+      </nav> 
+    </header>
+  <div id="container"> 
+    <form action="/test" method="post">
+    <h3>임금</h3>
+          <h2>기본급</h2>
+            <li>
+                <label for="uid">월</label>
+                <input type="text" id="uid" name="base_salary" autofocus placeholder="2,4000,000"  required >
+                <p1>원</p1>
+            </li>
+          <h2>시간 외 수당 </h2>
+            <li>
+                <label for="uid">월</label>
+                <input type="text" id="uid" name="overtime_pay" autofocus placeholder="100,00"  required >
+                <p1>원</p1>  
+            </li>
+            <li>
+            <label><input type="checkbox" name="1" value="1"> 근무와 상관없이 수당이 인정되는 시간</label>
+            </li>
+            <li>
+            <label><input type="checkbox" name="2" value="2" id="break"> 최저임금과 비교하기 </label>
+            </li>
+        <h3>채용 평가 기간의 적용 </h3>
+                <input type="radio" name="mailing" id="mailin_y">
+                <label for="mailing_y">적용함</label>
+                <input type="radio" name="mailing" id="mailing_n" value="mailing_no" >
+                <label for="mailing_n">적용하지 않음</label>
+    </div>
+      <div id="buttons">
+        <button id="b">문서 작성하기</button>
+    </div>
+  </form>
+  <script src="action.js"></script>
+  </section>
+  <div id="lawbot">
+    <h1>
+      자동완성
+    </h1>
+    <h2>
+      간단한 입력으로 법률문서  작성하기
+    </h2>
+    <img src = "./lawbot.png" width ="450px" height="250px">
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="./images/favicon.ico"/>
+    <title>Document</title><link rel="stylesheet" href="./document.css">
+</head>
+<body>
+  
+    <div id="title">
+      <img src = "./lawbot.png" width = "70px" height = " 40px " >
+      <h1>
+        LawBot
+      </h1>
+      <h2>
+        Home
+      </h2>
+    </div>
+    <section>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="./근로계약서.html">근로계약서</a></li>
+          <li><a  href="./내용증명.html">내용증명서</a></li>
+          <li><a  href="./지급명령서.html">지급명령서</a></li>
+          <li><a id="click" href="./고소장.html">고소장</a></li>
+        </nav>
+      </header>
+    <div id="container">
+    <form>
+      <h3>모욕죄 성립요건 -공연성(전파가능성)</h3>
+            <h2>모욕내용</h2>
+              <ul>
+              <li>
+                <input type="text" name="contents" placeholder="무식이 하늘을 찌르네" required>
+              </li>
+            </ul>
+            <h2>모욕행위가 발생한 온라인 공간</h2>
+            <select name = "event_place" id = "event_place">
+                <option>---선택---</option>
+                <option value = "internet comunity site">-인터넷 커뮤니티 사이트</option>
+                <option value = "online game">-온라인 게임</option>
+                <option value = "kakaotalk">-카카오톡</option>
+                <option value = "naver">-네이버</option>
+                <option value = "facebook">-페이스북</option>
+            </select>
+              <h2>제출할 증거</h2>
+              <input type="checkbox" name="comunication_screenshot" value = "check">
+              <label for="screenshot">위 사건 대화내용이 기재된 스크린샷</label><br>
+              <input type="checkbox" name="url_screenshot" value = "check">
+              <label for="url_screenshot">위 사건 사이트 URL이 기재된 스크린샷</label><br>
+              <input type="checkbox" name="pdf" value = "check">
+              <label for="pdf">위 사건을 캡쳐하여 저장한 pdf파일</label><br>
+          </div>
+        <div id="buttons">
+          <button id="b">문서 작성하기</button>
+      </div>
+    </section>
+    </form>
+    <script src="action.js"></script>
+    <a href="http://localhost:3000/make-word/download" download>다운로드</a>
+    <div id="lawbot">
+      <h1>
+        자동완성
+      </h1>
+      <h2>
+        간단한 입력으로 법률문서  작성하기
+      </h2>
+      <img src = "./lawbot.png" width ="450px" height="250px">
+      </div>
+</body>
+</html>
